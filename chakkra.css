@@ -1,0 +1,37 @@
+
+body {
+    background-color: hotpink;
+    margin: 0;
+    font-family: "Roboto"
+}
+
+.container {
+    color: white;
+    text-align: right;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown {
+    width: 500px;
+    height: 360px;
+}
+
+#days-container {
+    font-size: 120px;
+}
+
+#hours-container {
+    font-size: 90px;
+}
+
+#minutes-container {
+    font-size: 55px;
+}
+
+#seconds-container {
+    font-size: 20px;
+}
+
