@@ -10,7 +10,7 @@ function renderCountdown() {
     var minutesContainer = document.getElementById("minutes-container");
     var secondsContainer = document.getElementById("seconds-container");
     var today = new Date();
-    var end = new Date("Sep 21 00:00:00 2020");
+    var end = new Date("Sep 21 09:00:00 2020");
     var total_seconds = (end - today) / 1000;
 
 
